@@ -54,16 +54,17 @@ color: var(--focus-color);
 
 .hero {
 background-color: #2F303A;
+text-align: center;
+}
+
+.hero-heading {
+color: var(--hero-text);
 font-weight: 900;
 font-size: 44px;
 line-height: 1.4;
 text-align: center;
 letter-spacing: 0.06em;
 text-transform: uppercase;
-}
-
-.hero-heading {
-color: var(--hero-text);
 }
 
 .zakaz {
@@ -81,6 +82,7 @@ font-weight: bold;
 font-size: 14px;
 line-height: 1.2;
 letter-spacing: 0.03em;
+text-transform: uppercase;
 }
 
 .dignity-text {
@@ -177,7 +179,7 @@ color: var(--hero-text);
 .filter {
 font-family: Roboto;
 color: var(--nav-text);
-background: #F5F4FA
+background: #F5F4FA;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.6;
